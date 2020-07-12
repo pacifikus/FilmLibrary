@@ -29,14 +29,14 @@ new Vue({
   template: '<App/>',
   created () {
     var firebaseConfig = {
-      apiKey: 'AIzaSyAxxk_2wIhz_u2Mp39HJYp7hEh4ycSSFcM',
-      authDomain: 'filmlibrary-b0f09.firebaseapp.com',
-      databaseURL: 'https://filmlibrary-b0f09.firebaseio.com',
-      projectId: 'filmlibrary-b0f09',
-      storageBucket: 'filmlibrary-b0f09.appspot.com',
-      messagingSenderId: '529403195468',
-      appId: '1:529403195468:web:d873ada1a9c46ef57884e9',
-      measurementId: 'G-54VX6WM1V2'
+      apiKey: '',
+      authDomain: '',
+      databaseURL: '',
+      projectId: '',
+      storageBucket: '',
+      messagingSenderId: '',
+      appId: '',
+      measurementId: ''
     }
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig)
